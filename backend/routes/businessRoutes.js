@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const businessController = require('../controllers/businessController');
-import Business from '../models/Business';
 const { getBusinessesByOwnerId } = require('../controllers/businessController');
 
 // Create a new business
