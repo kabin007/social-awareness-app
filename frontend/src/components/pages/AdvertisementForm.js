@@ -46,7 +46,7 @@ const AdvertisementForm = ({ businesses, onBusinessSelect }) => {
 
       // Send POST request to the API
       const response = await axios.post(
-        'http://localhost:5000/api/advertisements', 
+        'https://social-awareness-app.onrender.com/api/advertisements', 
         advertisementData, 
         {
           headers: {

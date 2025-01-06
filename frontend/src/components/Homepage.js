@@ -48,11 +48,11 @@ const HomePage = () => {
         setIsLoading(true);
         const token = localStorage.getItem('token');
         const [campaignsRes, adsRes] = await Promise.all([
-          axios.get('http://localhost:5000/api/campaigns', {
+          axios.get('https://social-awareness-app.onrender.com/api/campaigns', {
             
           }),
 
-          axios.get('http://localhost:5000/api/advertisements', {
+          axios.get('https://social-awareness-app.onrender.com/api/advertisements', {
           }),
         ]);
 

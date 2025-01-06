@@ -38,7 +38,7 @@ const Login = ({ onLoginSuccess }) => {
       // Log loginData for debugging
       console.log('Sending login data:', loginData);  
 
-      const response = await axios.post('http://localhost:5000/api/login', loginData);
+      const response = await axios.post('https://social-awareness-app.onrender.com/api/login', loginData);
       console.log('Full response:', response);  
       console.log('Response data:', response.data);
 

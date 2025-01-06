@@ -30,7 +30,7 @@ const BusinessForm = () => {
       console.log(formData);
 
       
-      const response = await axios.post('http://localhost:5000/api/businesses', formData, {
+      const response = await axios.post('https://social-awareness-app.onrender.com/api/businesses', formData, {
         headers: {
           'Content-Type': 'application/json'
         }

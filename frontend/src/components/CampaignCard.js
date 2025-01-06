@@ -17,7 +17,7 @@ const CampaignCard = ({ campaign, currentUserId }) => {
     try {
       setIsJoining(true);
 
-      const response = await fetch('/api/campaign-members', {
+      const response = await fetch('https://social-awareness-app.onrender.com/api/campaign-members', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

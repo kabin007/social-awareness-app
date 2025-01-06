@@ -39,7 +39,7 @@ const Register = () => {
       };
       console.log()
 
-      const response = await axios.post('http://localhost:5000/api/register', userData);
+      const response = await axios.post('https://social-awareness-app.onrender.com/api/register', userData);
       
       setSuccess('Registration successful! Please check your email for verification.');
       setRegisterData({

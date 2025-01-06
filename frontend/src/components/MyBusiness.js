@@ -15,7 +15,7 @@ const MyBusiness = () => {
     if (ownerId) {
       // Make a GET request to fetch businesses related to the user
       axios
-        .get(`/api/businesses/${ownerId}`) 
+        .get(`https://social-awareness-app.onrender.com/api/businesses/${ownerId}`) 
         .then((response) => {
           // Set the businesses state with the fetched data
           setBusinesses(response.data);

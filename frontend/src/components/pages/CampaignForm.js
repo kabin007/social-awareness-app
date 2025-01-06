@@ -65,7 +65,7 @@ const CampaignForm = ({ onCreate }) => {
         console.log(pair[0], pair[1]);
       }
 
-      const response = await axios.post('http://localhost:5000/api/campaigns', formData, {
+      const response = await axios.post('https://social-awareness-app.onrender.com/api/campaigns', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
