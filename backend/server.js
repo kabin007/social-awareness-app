@@ -19,7 +19,7 @@ const campaignMemberRoute = require('./routes/campaignMemberRoutes');
 const businessRoute = require('./routes/businessRoutes');
 const advertisementRoute = require('./routes/advertisementRoutes');
 const commentRoute = require('./routes/commentRoutes');
-const { getBusinessesByOwnerId } = require('../controllers/businessController');
+const { getBusinessesByOwnerId } = require('./controllers/businessController');
 
 //  routes
 app.use('/api', authRoutes);
